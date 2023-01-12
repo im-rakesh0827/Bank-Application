@@ -31,5 +31,8 @@ public class Main {
 
 
         System.out.println(user.calculateInterest(24));
+
+
+        System.out.println("Welcome To Bank Application");
     }
 }
