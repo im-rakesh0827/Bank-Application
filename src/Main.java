@@ -29,10 +29,11 @@ public class Main {
         String pwd = sc.next();
         System.out.println(user.withdrawMoney(withdrawalAmount, pwd));
 
-
-        System.out.println(user.calculateInterest(24));
+        System.out.println("Interest : "+user.calculateInterest(24));
 
 
         System.out.println("Welcome To Bank Application");
+        
     }
+
 }
